@@ -1,0 +1,27 @@
+@import "./colors.scss";
+
+@font-face {
+  font-family: "Grosseto";
+  src:
+    local("Grosseto"),
+    url("./grosseto/Grosseto-Regular.otf") format("opentype");
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: $black;
+  font-family: 'Grosseto', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  font-family: 'Grosseto', 'Roboto', sans-serif;
+}
